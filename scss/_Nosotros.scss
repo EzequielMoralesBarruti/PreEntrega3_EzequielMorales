@@ -1,0 +1,40 @@
+.Descripcion{
+    width:100vw;
+    height:100vh;
+    background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: antiquewhite;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width: 600px){
+    .Descripcion{
+        width:100vw;
+        height:100vh;
+        background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        color: antiquewhite;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Slabo 27px', serif;
+        font-size: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        
+    }
+    }
+
+   
+    

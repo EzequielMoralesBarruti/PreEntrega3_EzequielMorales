@@ -1,0 +1,93 @@
+main {
+    .Cursos{
+        width:100vw;
+        height:100vh;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/curso-bartender.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+    }
+    .Card1{
+        display: flex;
+        margin-left: 50px;
+        justify-content: flex-start;
+        
+    }
+    #Inicial{
+        width:100vw;
+        height:100vh;
+        background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/Inicial.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        color: antiquewhite;
+        font-size: 20px;
+        text-align: center;
+            #Inicial-Texto{
+                font-family: 'Anton', sans-serif;
+        
+                font-family: 'Pacifico', cursive;
+        
+                font-family: 'Slabo 27px', serif;
+                font-size: 40px;
+            }
+    }
+    #Avanzado{
+        width:100vw;
+        height:100vh;
+        background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/Avanzado.png");
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        color: antiquewhite;
+        font-size: 20px;
+        text-align: center;
+    }
+} 
+
+
+@media screen and (max-width: 600px){
+    main{
+        .Cursos{
+                width: 100vw;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+
+            .Card1{
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+            }
+            .Card2{
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+
+            }
+        }
+        
+        #Inicial {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+
+        }
+    
+        #Avanzado {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        
+        }
+    }
+}

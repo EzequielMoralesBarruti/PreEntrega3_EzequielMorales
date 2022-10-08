@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Slabo+27px&display=swap');
+@import "Cursos";
+@import "Footer";
+@import "Contacto";
+@import "Galeria";
+@import "Nosotros";
+@import "Variables";
+@import "mixing";
+
+/*--------GENERAL PARA TODAS LAS PAGINAS-----------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: map-get($estilos,height);
+    width: map-get($estilos,width);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    
+}
+h1{
+    background-color: #d17acd9c;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+/*---------------Menu------------*/
+.menu{
+    background: $color;
+    font-family: 'Roboto', sans-serif;
+    .logo{
+        display: grid;
+        width: 15%;
+        transition: transform 2s;
+    }
+    .logo:hover{
+        transform: rotate(360deg);
+    }
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+}
+/*----------------------------------------------INDEX------------------------------------*/
+main{
+    .Descrip{
+        height: map-get($estilos,height);
+        width: map-get($estilos,width);
+        background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        color: antiquewhite;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Slabo 27px', serif;
+        font-size: 40px;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        
+        
+    }
+    
+    .Barra{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        height: 50%;
+    }
+    
+
+}
+/*----------------------------------------------FINALIZA    INDEX------------------------------------*/
+
+
+
+
+@media screen and (max-width: 600px){
+    .menu{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+
+    .Descrip{
+        color: antiquewhite;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Slabo 27px', serif;
+        font-size: 50px;
+        
+    }
+
+}
+
+

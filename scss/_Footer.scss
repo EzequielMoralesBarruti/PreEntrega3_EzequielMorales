@@ -1,0 +1,40 @@
+.RedesSociales{
+    height: 10vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 0%, rgba(177,177,177,1) 37%, rgba(255,255,255,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5PX;
+    
+    .IG{
+        padding-left: 5PX;
+        transition: transform 2s;
+        margin-right: 50px;
+        
+    }
+    .IG:hover{
+        transform: rotate(360deg);
+    }
+    .Face{
+        padding-left: 5PX;
+        transition: transform 2s;
+        margin-right: 50px;
+        
+    }
+    .Face:hover{
+        transform: rotate(360deg);
+    }
+
+    .Wtsp{
+        padding-left: 5PX;
+        transition: transform 2s;
+        margin-right: 50px;
+
+        }
+        .Wtsp:hover{
+            transform: rotate(360deg);
+    }
+
+
+}
