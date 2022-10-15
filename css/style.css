@@ -33,6 +33,10 @@ main #Inicial {
     font-family: 'Slabo 27px', serif;
     font-size: 40px; }
 
+main .Inicial-inscripcion {
+  background-color: #ecf000;
+  border: 0px; }
+
 main #Avanzado {
   width: 100vw;
   height: 100vh;
@@ -328,6 +332,9 @@ main .Barra {
   justify-items: center;
   width: 100%;
   height: 50%; }
+
+.Inicial-inscripcion {
+  background-color: aqua; }
 
 /*----------------------------------------------FINALIZA    INDEX------------------------------------*/
 @media screen and (max-width: 600px) {
