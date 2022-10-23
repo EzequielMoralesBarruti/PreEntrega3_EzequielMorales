@@ -18,6 +18,7 @@
 body{
     height: 100vh;
     max-width: 100vw;
+    
 }
 
 header{
@@ -26,11 +27,16 @@ header{
     
 }
 h1{
-    background-color: #d17acd9c;
+    background-color: #bb16b39c;
+    color: antiquewhite;
     font-weight: 400;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px ;
+    
     font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Slabo 27px', serif;
 }
 
 /*---------------Menu------------*/
@@ -51,9 +57,10 @@ h1{
     }
 }
 /*----------------------------------------------INDEX------------------------------------*/
-main{
+main{background-color: black;
     .Descrip{
-        height: map-get($estilos,height);
+        
+        height: 80vh;
         width: map-get($estilos,width);
         background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
         background-size: cover;
@@ -94,7 +101,7 @@ main{
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 900px){
     .menu{
         
         display: flex;
@@ -111,7 +118,13 @@ main{
         font-size: 50px;
         
     }
-
+    .notfound {
+        background: url("../Galeria/error.jpeg");
+        width: 100vw;
+        height:100vh;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 

@@ -6,7 +6,7 @@ main .Cursos {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../Galeria/curso-bartender.jpg");
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0.642)), url("../Galeria/curso-bartender.jpg");
   background-size: cover;
   background-position: center;
   padding: 20px; }
@@ -45,7 +45,7 @@ main #Avanzado {
   font-size: 20px;
   text-align: center; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   main .Cursos {
     height: auto;
     display: flex;
@@ -136,9 +136,9 @@ main #Avanzado {
         background: none;
         outline: 0;
         color: #fff;
-        border-bottom: 1px solid #d63031; }
+        border-bottom: 1px solid #d6bd30; }
       .Contacto-c .contact-wrapper .contact-form form button {
-        background: #B70E21;
+        background: #d6bd30;
         border: 0;
         text-transform: uppercase;
         padding: 1em; }
@@ -149,8 +149,8 @@ main #Avanzado {
           margin: 0 0 1rem 0; }
     .Contacto-c .contact-wrapper .contact-form form button:hover,
     .Contacto-c .contact-wrapper .contact-form form button:focus {
-      background: #d63031;
-      color: #fff;
+      background: #ffdf2a;
+      color: black;
       transition: background-color 1s ease-out;
       outline: 0; }
 
@@ -286,15 +286,19 @@ header {
   flex-direction: row; }
 
 h1 {
-  background-color: #d17acd9c;
+  background-color: #bb16b39c;
+  color: antiquewhite;
   font-weight: 400;
   text-align: center;
-  padding: 20px 0;
-  font-size: 30px; }
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Slabo 27px', serif; }
 
 /*---------------Menu------------*/
 .menu {
-  background: #f5b8b8;
+  background: #d955eb98;
   font-family: 'Roboto', sans-serif; }
   .menu .logo {
     display: grid;
@@ -307,26 +311,28 @@ h1 {
     padding: 0; }
 
 /*----------------------------------------------INDEX------------------------------------*/
-main .Descrip {
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
-  background-size: cover;
-  background-position: center;
-  padding: 50px;
-  color: antiquewhite;
-  font-family: 'Anton', sans-serif;
-  font-family: 'Pacifico', cursive;
-  font-family: 'Slabo 27px', serif;
-  font-size: 30px;
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: column; }
-
-main .Barra {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  width: 100%;
-  height: 50%; }
+main {
+  background-color: black; }
+  main .Descrip {
+    height: 80vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: antiquewhite;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column; }
+  main .Barra {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 50%; }
 
 .notfound {
   background: url("../Galeria/404.jpg");
@@ -336,7 +342,7 @@ main .Barra {
   background-position: center; }
 
 /*----------------------------------------------FINALIZA    INDEX------------------------------------*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .menu {
     display: flex;
     flex-direction: column;
@@ -347,4 +353,10 @@ main .Barra {
     font-family: 'Anton', sans-serif;
     font-family: 'Pacifico', cursive;
     font-family: 'Slabo 27px', serif;
-    font-size: 50px; } }
+    font-size: 50px; }
+  .notfound {
+    background: url("../Galeria/error.jpeg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center; } }
