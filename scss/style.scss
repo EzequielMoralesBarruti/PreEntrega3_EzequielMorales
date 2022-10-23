@@ -16,8 +16,8 @@
     box-sizing: border-box;
 }
 body{
-    height: map-get($estilos,height);
-    width: map-get($estilos,width);
+    height: 100vh;
+    max-width: 100vw;
 }
 
 header{
@@ -58,12 +58,12 @@ main{
         background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
         background-size: cover;
         background-position: center;
-        padding: 20px;
+        padding: 50px;
         color: antiquewhite;
         font-family: 'Anton', sans-serif;
         font-family: 'Pacifico', cursive;
         font-family: 'Slabo 27px', serif;
-        font-size: 40px;
+        font-size: 30px;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
@@ -81,9 +81,14 @@ main{
     
 
 }
-.Inicial-inscripcion{
-    background-color: aqua;
+.notfound {
+    background: url("../Galeria/404.jpg");
+    max-width: 100vw;
+    height:100vh;
+    background-size: cover;
+    background-position: center;
 }
+
 /*----------------------------------------------FINALIZA    INDEX------------------------------------*/
 
 

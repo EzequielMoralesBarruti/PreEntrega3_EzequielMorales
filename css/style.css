@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Slabo+27px&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Slabo+27px&display=swap");
 main .Cursos {
-  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -18,7 +17,6 @@ main .Card1 {
   justify-content: flex-start; }
 
 main #Inicial {
-  width: 100vw;
   height: 100vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../Galeria/Inicial.jpg");
   background-size: cover;
@@ -38,7 +36,6 @@ main .Inicial-inscripcion {
   border: 0px; }
 
 main #Avanzado {
-  width: 100vw;
   height: 100vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../Galeria/Avanzado.png");
   background-size: cover;
@@ -50,7 +47,6 @@ main #Avanzado {
 
 @media screen and (max-width: 600px) {
   main .Cursos {
-    width: 100vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -244,9 +240,8 @@ main #Avanzado {
     right: 20px; } }
 
 .Descripcion {
-  width: 100vw;
-  height: 100vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
+  height: 100vh;
   background-size: cover;
   background-position: center;
   padding: 20px;
@@ -261,7 +256,7 @@ main #Avanzado {
 
 @media screen and (max-width: 600px) {
   .Descripcion {
-    width: 100vw;
+    max-width: 100vw;
     height: 100vh;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
     background-size: cover;
@@ -283,7 +278,8 @@ main #Avanzado {
   box-sizing: border-box; }
 
 body {
-  height: 100vh; }
+  height: 100vh;
+  max-width: 100vw; }
 
 header {
   display: flex;
@@ -312,16 +308,15 @@ h1 {
 
 /*----------------------------------------------INDEX------------------------------------*/
 main .Descrip {
-  height: 100vh;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
   background-size: cover;
   background-position: center;
-  padding: 20px;
+  padding: 50px;
   color: antiquewhite;
   font-family: 'Anton', sans-serif;
   font-family: 'Pacifico', cursive;
   font-family: 'Slabo 27px', serif;
-  font-size: 40px;
+  font-size: 30px;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column; }
@@ -333,8 +328,12 @@ main .Barra {
   width: 100%;
   height: 50%; }
 
-.Inicial-inscripcion {
-  background-color: aqua; }
+.notfound {
+  background: url("../Galeria/404.jpg");
+  max-width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
 
 /*----------------------------------------------FINALIZA    INDEX------------------------------------*/
 @media screen and (max-width: 600px) {

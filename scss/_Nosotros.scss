@@ -1,7 +1,8 @@
 .Descripcion{
-    width:100vw;
-    height:100vh;
+    
     background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
+   
+    height:100vh;
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -18,7 +19,7 @@
 
 @media screen and (max-width: 600px){
     .Descripcion{
-        width:100vw;
+        max-width:100vw;
         height:100vh;
         background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
         background-size: cover;
@@ -35,6 +36,3 @@
         
     }
     }
-
-   
-    

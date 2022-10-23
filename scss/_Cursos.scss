@@ -1,6 +1,6 @@
 main {
     .Cursos{
-        width:100vw;
+       
         height:100vh;
         display:flex;
         align-items:center;
@@ -17,7 +17,7 @@ main {
         
     }
     #Inicial{
-        width:100vw;
+        
         height:100vh;
         background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/Inicial.jpg");
         background-size: cover;
@@ -42,7 +42,7 @@ main {
     }
     
     #Avanzado{
-        width:100vw;
+       
         height:100vh;
         background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/Avanzado.png");
         background-size: cover;
@@ -59,7 +59,7 @@ main {
 @media screen and (max-width: 600px){
     main{
         .Cursos{
-                width: 100vw;
+                
                 height: auto;
                 display: flex;
                 flex-direction: column;
