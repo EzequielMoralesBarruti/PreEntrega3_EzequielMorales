@@ -267,7 +267,7 @@ main #Avanzado {
     font-family: 'Anton', sans-serif;
     font-family: 'Pacifico', cursive;
     font-family: 'Slabo 27px', serif;
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column; } }
@@ -303,6 +303,7 @@ h1 {
   font-family: 'Roboto', sans-serif; }
   .menu .logo {
     display: grid;
+    grid-row: auto;
     width: 15%;
     transition: transform 2s; }
   .menu .logo:hover {
@@ -377,4 +378,4 @@ main {
     font-family: 'Pacifico', cursive;
     font-family: 'Slabo 27px', serif; }
     .Descrip .descrip_parrafo {
-      font-size: 20px; } }
+      font-size: 18px; } }

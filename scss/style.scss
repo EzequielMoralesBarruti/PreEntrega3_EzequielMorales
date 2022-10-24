@@ -45,6 +45,7 @@ h1{
     font-family: 'Roboto', sans-serif;
     .logo{
         display: grid;
+        grid-row: auto;
         width: 15%;
         transition: transform 2s;
     }
@@ -142,7 +143,7 @@ main{
         font-family: 'Pacifico', cursive;
         font-family: 'Slabo 27px', serif;
         .descrip_parrafo{
-            font-size: 20px;
+            font-size: 18px;
             }
         
     }
