@@ -321,7 +321,7 @@ main {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.642), rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
     background-size: cover;
     background-position: center;
-    padding: 30px;
+    padding: 20px;
     color: antiquewhite;
     font-family: 'Anton', sans-serif;
     font-family: 'Pacifico', cursive;
