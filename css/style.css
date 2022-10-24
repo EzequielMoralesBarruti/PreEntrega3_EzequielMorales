@@ -55,8 +55,7 @@ main #Avanzado {
       height: auto;
       display: flex;
       flex-direction: column;
-      flex-wrap: nowrap;
-      justify-content: space-around; }
+      flex-wrap: nowrap; }
     main .Cursos .Card2 {
       height: auto;
       display: flex;
@@ -110,7 +109,7 @@ main #Avanzado {
     text-align: center;
     font-size: 3em; }
     .Contacto-c .logoc span {
-      color: #B70E21; }
+      color: #d6bd30; }
   .Contacto-c .contact-wrapper {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3); }
     .Contacto-c .contact-wrapper * {
@@ -360,7 +359,6 @@ main {
       font-size: 22px; }
   .notfound {
     background: url("../Galeria/error.jpeg");
-    width: 100vw;
     height: 100vh;
     background-size: cover;
     background-position: center; } }
