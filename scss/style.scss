@@ -57,20 +57,22 @@ h1{
     }
 }
 /*----------------------------------------------INDEX------------------------------------*/
-main{background-color: black;
+main{
+    background-color: black;
+    padding: 20px;
     .Descrip{
         
-        height: 80vh;
+        height: 100vh;
         width: map-get($estilos,width);
         background:linear-gradient(to right,rgba(0, 0, 0, 0.642),rgba(0, 0, 0, 0.642)), url("../Galeria/index.jpg");
         background-size: cover;
         background-position: center;
-        padding: 50px;
+        padding: 30px;
         color: antiquewhite;
         font-family: 'Anton', sans-serif;
         font-family: 'Pacifico', cursive;
         font-family: 'Slabo 27px', serif;
-        font-size: 30px;
+        font-size: 35px;
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
@@ -97,13 +99,8 @@ main{background-color: black;
 }
 
 /*----------------------------------------------FINALIZA    INDEX------------------------------------*/
-
-
-
-
 @media screen and (max-width: 900px){
-    .menu{
-        
+    .menu{        
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -115,9 +112,11 @@ main{background-color: black;
         font-family: 'Anton', sans-serif;
         font-family: 'Pacifico', cursive;
         font-family: 'Slabo 27px', serif;
-        font-size: 50px;
         
-    }
+        .descrip_parrafo{
+            font-size: 22px;
+            }
+}
     .notfound {
         background: url("../Galeria/error.jpeg");
         width: 100vw;
@@ -128,3 +127,23 @@ main{background-color: black;
 }
 
 
+@media screen and (max-width: 600px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    
+    .Descrip{
+        height:100vh;
+        color: antiquewhite;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Pacifico', cursive;
+        font-family: 'Slabo 27px', serif;
+        .descrip_parrafo{
+            font-size: 20px;
+            }
+        
+    }
+}
